@@ -1,0 +1,26 @@
+# Pre-Compiled Files #
+*.class
+/bin
+.classpath
+.project
+
+# SDK Projects
+/sdk
+
+# Automatic Generated Files #
+*.applet
+
+# Package Files #
+*.war
+*.ear
+
+# Javadoc Files #
+/maven/javadoc
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# IntelliJ Files #
+.idea
+*.iml
+target/
