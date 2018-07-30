@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.harium.etyl</groupId>
     <artifactId>io-android</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <name>Etyl IO Android</name>
     <description>Util IO library to Etyl Android</description>
@@ -26,7 +26,8 @@
             <groupId>com.harium.android</groupId>
             <artifactId>core</artifactId>
             <version>0.2.0</version>
-            <scope>compile</scope>
+            <scope>provided</scope>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
